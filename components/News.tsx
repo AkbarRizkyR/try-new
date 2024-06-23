@@ -12,7 +12,7 @@ const News = () => {
                     <NewsCard image="/images/g3.jpg" title="New Update" />
                     <NewsCard image="/images/g4.jpg" title="Check New Update" />
                     <NewsCard image="/images/g7.jpg" title="New Skin" />
-                    <NewsCard image="/images/g2.jpg" title="New Skin" />
+                    <NewsCard image="/images/G2.jpg" title="New Skin" />
                 </div>
             </div>
         </div>
