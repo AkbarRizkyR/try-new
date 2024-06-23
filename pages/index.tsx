@@ -5,6 +5,7 @@ import Products from '@/components/Products'
 import TopProduct from '@/components/TopProducts'
 import BestSeller from '@/components/BestSeller'
 import News from '@/components/News'
+import Contact from '@/components/Contact'
 
 
 const index = () => {
@@ -16,6 +17,7 @@ const index = () => {
         <TopProduct />
         <BestSeller />
         <News />
+        <Contact />
       </div>
   )
 }
