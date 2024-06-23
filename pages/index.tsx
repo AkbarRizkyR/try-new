@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Products from '@/components/Products'
+import TopProduct from '@/components/TopProducts'
 
 
 const index = () => {
@@ -10,6 +11,7 @@ const index = () => {
         <Navbar />
         <Hero />
         <Products />
+        <TopProduct />
       </div>
   )
 }
