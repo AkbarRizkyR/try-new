@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '@/components/Nav'
 import Hero from '@/components/Hero'
+import Products from '@/components/Products'
 
 
 const index = () => {
@@ -8,6 +9,7 @@ const index = () => {
     <div className='overflow-x-hidden'>
         <Navbar />
         <Hero />
+        <Products />
       </div>
   )
 }
