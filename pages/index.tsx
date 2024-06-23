@@ -3,6 +3,7 @@ import Navbar from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Products from '@/components/Products'
 import TopProduct from '@/components/TopProducts'
+import BestSeller from '@/components/BestSeller'
 
 
 const index = () => {
@@ -12,6 +13,7 @@ const index = () => {
         <Hero />
         <Products />
         <TopProduct />
+        <BestSeller />
       </div>
   )
 }
