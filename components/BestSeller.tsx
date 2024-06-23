@@ -13,16 +13,16 @@ const TopProduct = () => {
                 </button>
             </div>
             <div className='grid mt-[2rem] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-8 w-[80%] mx-auto'>
-                <div data-aos="fade-right" data-aos-delay="400">
+                <div>
                     <ProductCard title="Dota 2 (Ardalan Set)" actualPrice='Rp. 150.000' discountPrice='Rp. 125.000' category='MOBA' image='/images/G1.jpg' />
                 </div>
-                <div data-aos="fade-right" data-aos-delay="600">
+                <div>
                     <ProductCard title="Dota 2 (Female AntiMage Set)" actualPrice='Rp. 1050.000' discountPrice='Rp. 925.000' category='MOBA' image='/images/G2.jpg' />
                 </div>
-                <div data-aos="fade-right" data-aos-delay="800">
+                <div>
                     <ProductCard title="Valorant (Kuronami Vandal)" actualPrice='Rp. 250.000' discountPrice='Rp. 225.000' category='Shooting' image='/images/g3.jpg' />
                 </div>
-                <div data-aos="fade-right" data-aos-delay="1000">
+                <div>
                     <ProductCard title="Valorant (Kuronami No Yaiba)" actualPrice='Rp. 750.000' discountPrice='Rp. 555.000' category='Shooting' image='/images/g4.jpg' />
                 </div>
 

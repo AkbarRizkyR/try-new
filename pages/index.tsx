@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import Products from '@/components/Products'
 import TopProduct from '@/components/TopProducts'
 import BestSeller from '@/components/BestSeller'
+import News from '@/components/News'
 
 
 const index = () => {
@@ -14,6 +15,7 @@ const index = () => {
         <Products />
         <TopProduct />
         <BestSeller />
+        <News />
       </div>
   )
 }
