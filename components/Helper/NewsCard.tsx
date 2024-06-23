@@ -13,7 +13,7 @@ const NewsCard = ({ title, image }: Props) => {
     return (
         <div className='flex flex-col bg-gray-900 p-4 rounded-lg'>
             <div className='w-full'>
-                <Image width={300} height={200} src={`${image}`} alt={`${title}`} className='w-[100%] h-[100%] rounded-t-lg' />
+                <Image width={500} height={500} src={`${image}`} alt={`${title}`} className='w-[100%] h-[100%] rounded-t-lg' />
             </div>
             <div className='mt-4'>
                 <h1 className='text-[22px] mb-[1rem] text-white capitalize'>
